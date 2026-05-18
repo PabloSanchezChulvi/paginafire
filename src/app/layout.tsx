@@ -64,6 +64,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: SITE_URL,
   },
+  other: {
+    // Verificación AdSense — visible en el <head> sin necesitar JavaScript
+    'google-adsense-account': 'ca-pub-3507033817568785',
+  },
   robots: {
     index: true,
     follow: true,
