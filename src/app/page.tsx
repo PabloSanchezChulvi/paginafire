@@ -1,6 +1,6 @@
 import { CalculadoraFIRE } from '@/components/calculadora/CalculadoraFIRE'
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://fuegocalculadora.com'
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://firecalculadora.es'
 
 const jsonLd = {
   '@context': 'https://schema.org',

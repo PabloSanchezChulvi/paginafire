@@ -14,7 +14,7 @@ const geistMono = localFont({
   weight: '100 900',
 })
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://fuegocalculadora.com'
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://firecalculadora.es'
 // Sustituye por tu ID real de GA4 cuando lo tengas
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? ''
 
@@ -88,7 +88,7 @@ export default function RootLayout({
         {/* Google AdSense */}
         <Script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5507053817586785"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3507033817568785"
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />

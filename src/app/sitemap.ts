@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 // Cambia por tu dominio real cuando lo registres
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://fuegocalculadora.com'
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://firecalculadora.es'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
