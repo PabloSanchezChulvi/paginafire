@@ -14,7 +14,7 @@ interface Props {
 }
 
 // Sustituye ca-pub-XXXXXXXXXXXXXXXX por tu Publisher ID de AdSense
-const ADSENSE_CLIENT = 'ca-pub-XXXXXXXXXXXXXXXX'
+const ADSENSE_CLIENT = 'ca-pub-5507053817586785'
 
 export function AdSenseSlot({ slot, format = 'auto', className = '' }: Props) {
   useEffect(() => {

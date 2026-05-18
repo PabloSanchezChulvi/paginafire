@@ -85,6 +85,14 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
 
+        {/* Google AdSense */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5507053817586785"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+
         {/* Google Analytics 4 — activa cuando tengas tu GA_ID */}
         {GA_ID && (
           <>
