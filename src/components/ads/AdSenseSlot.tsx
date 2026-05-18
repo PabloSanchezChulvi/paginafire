@@ -28,17 +28,6 @@ export function AdSenseSlot({ slot, format = 'auto', className = '' }: Props) {
     }
   }, [])
 
-  // No renderizar si el ID de AdSense no está configurado aún
-  if (ADSENSE_CLIENT === 'ca-pub-XXXXXXXXXXXXXXXX') {
-    return (
-      <div className={`flex items-center justify-center bg-gray-50 border border-dashed border-gray-300 rounded-lg text-xs text-gray-400 py-6 ${className}`}>
-        Espacio reservado para anuncio AdSense
-        <br />
-        <span className="text-gray-300">Slot: {slot}</span>
-      </div>
-    )
-  }
-
   return (
     <ins
       className={`adsbygoogle block ${className}`}
